@@ -9,14 +9,14 @@ Review a fictional company's security practices and identify potential vulnerabi
 ## Company Scenario: "TechStart Inc"
 A 50-person startup with the following setup:
 
-.. Systems: Cloud-based (AWS), web application, employee laptops
-....* Current Practices:
-....* Shared admin passwords in a text file
-....* No backup system
-....* Employees use personal email for work
-....* Public WiFi used for work
-....* No security training
-....* Software updates done "when remembered"
+*Systems: Cloud-based (AWS), web application, employee laptops
+*Current Practices:
+    * Shared admin passwords in a text file
+    * No backup system
+    * Employees use personal email for work
+    * Public WiFi used for work
+    * No security training
+    * Software updates done "when remembered"
 
 ## Assessment Tasks
 1. Identify 5 Major Security Risks
