@@ -1,9 +1,9 @@
 # TechStart Inc. — Security Assessment Report
 
-   Prepared by: Emily
-   Date: 0ctober 7, 2026
-   Classification: Internal Use Only
-   Assessment Period: 1 Week
+###### Prepared by: Emily
+###### Date: 0ctober 7, 2026
+###### Classification: Internal Use Only
+###### Assessment Period: 1 Week
 
 ## 1. Executive Summary
 
