@@ -20,17 +20,17 @@ A 50-person startup with the following setup:
 
 ## Assessment Tasks
 1. Identify 5 Major Security Risks
-....Explain each risk clearly
-....Rate severity (High/Medium/Low)
-....Explain potential impact
+    * Explain each risk clearly
+    * Rate severity (High/Medium/Low)
+    * Explain potential impact
 2. Recommend Solutions
-....Specific, actionable steps for each risk
-....Prioritize by urgency and cost
-....Include timeline estimates
+    * Specific, actionable steps for each risk
+    * Prioritize by urgency and cost
+    * Include timeline estimates
 3. Create Security Checklist
-....Daily, weekly, monthly security tasks
-....Employee security best practices
-....Emergency response procedures
+    * Daily, weekly, monthly security tasks
+    * Employee security best practices
+    * Emergency response procedures
 
 ## Example Risk Assessment
 ```
