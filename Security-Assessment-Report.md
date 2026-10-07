@@ -19,6 +19,6 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 2. Implement automated backups (Weeks 2–3)
 3. Deploy company email and VPN (Weeks 2–4)
 4. Launch security awareness training (Month 2)
-5. Establish patch management policy (Month 2)
-  **Estimated Total First-Year Cost:** $8,000–$15,000.  
-  **Estimated Risk Reduction:** ~80% of identified critical risk. 
+5. Establish patch management policy (Month 2)  
+  **Estimated Total First-Year Cost:** $8,000–$15,000    
+  **Estimated Risk Reduction:** ~80% of identified critical risk 
