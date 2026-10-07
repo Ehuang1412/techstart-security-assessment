@@ -1,9 +1,9 @@
 # TechStart Inc. — Security Assessment Report
 
-Prepared by: Emily
-Date: 0ctober 7, 2026
-Classification: Internal Use Only
-Assessment Period: 1 Week
+  Prepared by: Emily
+  Date: 0ctober 7, 2026
+  Classification: Internal Use Only
+  Assessment Period: 1 Week
 
 ## 1. Executive Summary
 
@@ -13,7 +13,7 @@ The findings reveal that TechStart's most significant vulnerabilities stem not f
 
 Key Finding: TechStart is currently operating at a security maturity level of 1 out of 5 (ad hoc/undefined). A single compromised credential or stolen laptop could result in complete system compromise, permanent data loss, regulatory penalties, and irreparable reputational damage.
 
-####Recommended Immediate Actions:
+#### Recommended Immediate Actions:
 
 1. Eliminate shared admin passwords (Week 1)
 2. Implement automated backups (Weeks 2–3)
