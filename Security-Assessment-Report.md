@@ -74,7 +74,7 @@ Administrative credentials for AWS, the web application, and internal systems ar
 **Cost:** $50–$200/month (password manager) + staff time  
 **Priority:** 🔥 IMMEDIATE — Week 1  
 
-## RISK 2: No Backup System
+### RISK 2: No Backup System
 
 **Severity:**	🔴 HIGH  
 **Likelihood:**	High  
@@ -101,4 +101,67 @@ TechStart has no automated backup system for its AWS infrastructure, databases, 
 6. Document recovery procedures (RTO/RPO targets)
 **Timeline:** 2–3 weeks  
 **Cost:** $100–$400/month (AWS Backup storage) + setup time  
-**Priority:** 🔥 IMMEDIATE — Weeks 2–3  
+**Priority:** 🔥 IMMEDIATE — Weeks 2–3
+
+### RISK 3: Employees Use Personal Email for Work
+
+**Severity:**	🟠 MEDIUM-HIGH    
+**Likelihood:**	High    
+**Impact:**	High  
+
+#### Description:
+Employees conduct company business — including sharing documents, credentials, and customer information — through personal email accounts (Gmail, Yahoo, etc.). The company has no visibility or control over this data.
+
+#### Potential Impact:
+
+* No data governance — company data lives on personal accounts the company can't control or recover
+* Ex-employees retain access to company communications and files indefinitely
+* No audit trail for compliance or legal discovery
+* Increased phishing risk — personal accounts lack enterprise protections
+* Data leakage if personal accounts are breached
+* Violates most compliance frameworks (SOC 2, ISO 27001, GDPR)
+  
+#### Recommended Solution:
+
+1. Provision company email (e.g., Google Workspace or Microsoft 365)
+2. Migrate active work communications to company accounts
+3. Enforce company email via acceptable use policy
+4. Enable MFA and advanced phishing protection on company email
+5. Set up email retention and eDiscovery policies
+6. Offboard ex-employees immediately (see Risk 5)
+   
+**Timeline:** 2–4 weeks
+**Cost:** $6–$12/user/month (~$300–$600/month for 50 users)
+**Priority:** ⚡ HIGH — Weeks 2–4
+
+### RISK 4: Public WiFi Used for Work Without VPN
+
+**Severity:**	🟠 MEDIUM-HIGH    
+**Likelihood:**	Medium-High    
+**Impact:**	High  
+
+#### Description:
+Employees work from coffee shops, airports, and hotels using unsecured public WiFi without a VPN. All traffic — including credentials and customer data — is transmitted over untrusted networks.
+
+#### Potential Impact:
+
+* Man-in-the-middle (MITM) attacks — attackers intercept credentials and session tokens
+* Evil twin attacks — fake hotspots mimic legitimate ones
+* Session hijacking leads to account takeover
+* Customer data intercepted in transit = breach + regulatory liability
+* Packet sniffing can expose unencrypted internal communications
+* One compromised session on public WiFi can lead to full network access
+#### Recommended Solution:
+
+1. Deploy a company VPN (e.g., Tailscale, NordLayer, or AWS Client VPN)
+2. Require VPN use on all public/untrusted networks (enforce via policy + MDM)
+3. Enable full-disk encryption on all laptops (BitLocker/FileVault)
+4. Enforce HTTPS everywhere; deploy DNS filtering
+5. Consider Zero Trust Network Access (ZTNA) as a modern alternative
+6. Train employees on public WiFi risks
+
+**Timeline:** 2–3 weeks  
+**Cost:** $5–$10/user/month (~$250–$500/month) + MDM if not already deployed  
+**Priority:** ⚡ HIGH — Weeks 2–4  
+
+
