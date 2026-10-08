@@ -17,3 +17,12 @@ Low | | | <br> RISK 5 🟠 <br>
 3	|Personal email for work	|5	|4	|20	|🟠 High	|P2 — Short-term
 4 |	Public WiFi without VPN	|4	|4|	16	|🟠 High	|P2 — Short-term
 5	|No training / delayed patches	|5|	3	|15	|🟠 High	|P3 — Medium-term
+
+#### Scoring Key:
+
+score| rating | time
+--- | --- | --- 
+20–25 |Critical | fix immediately
+15–19 |High | fix within 30 days
+10–14 |Medium | fix within 90 days
+5–9| Low — monitor |fix within 6 months
