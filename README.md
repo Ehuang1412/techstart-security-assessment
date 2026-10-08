@@ -50,8 +50,8 @@ Cost: $50/month for password manager
 ## Deliverables
 1. [Security Assessment Report (2-3 pages)](./SecurityAssessmentReport.md)
 2. [Risk Priority Matrix (spreadsheet or chart)](./RiskPriorityMatrix.md)
-3. Implementation Roadmap (timeline with milestones)
-4. Employee Security Checklist (1-page quick reference)
+3. [Implementation Roadmap (timeline with milestones)](./ImplementationRoadmap.md)
+4. [Employee Security Checklist (1-page quick reference)](./EmployeeSecurityChecklist.md)
 
 ## Learning Resources
 - OWASP Top 10 security risks
