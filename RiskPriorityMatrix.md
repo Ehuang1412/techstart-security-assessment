@@ -31,6 +31,6 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 LIKELIHOOD \IMPACT  |  Low  |  Medium | High
 --- | --- | --- | ---
-High | `renders` | **nicely**
-Med | 2 | 3 |
-Low | | |
+High | | | `RISK 1 🔴  RISK 2 🔴   RISK 3 🟠` 
+Med |  |  | RISK 4 🟠
+Low | | | RISK 5 🟠
