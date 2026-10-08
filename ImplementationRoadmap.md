@@ -50,8 +50,8 @@ Enable automatic OS/software updates via MDM	|IT Lead|	Week 7|	$0	|Auto-updates 
 Publish acceptable use & security policy	|Management|	Week 8|	$0	|Policy signed by all staff
 Create emergency response runbooks	|IT Lead|	Week 8	|$0|	4 scenarios documented
 
-**Phase 2 Milestone:** ✅ Security culture established; processes documented
-**Phase 2 Cost:** ~$200/month
+**Phase 2 Milestone:** ✅ Security culture established; processes documented  
+**Phase 2 Cost:** ~$200/month  
 
 ### PHASE 4: Sustain & Improve (Month 3+)
 
