@@ -45,11 +45,9 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 
 ### RISK 1: Shared Admin Passwords Stored in Plain Text
 
-**Severity:**	🔴 HIGH
-
-**Likelihood:**	High
-
-**Impact:**	Critical
+**Severity:**	🔴 HIGH  
+**Likelihood:**	High  
+**Impact:**	Critical  
 
 #### Description:
 Administrative credentials for AWS, the web application, and internal systems are stored in a shared text file accessible to multiple employees. There is no individual accountability, no password rotation, and no audit trail.
@@ -75,3 +73,32 @@ Administrative credentials for AWS, the web application, and internal systems ar
 **Timeline:** 1 week  
 **Cost:** $50–$200/month (password manager) + staff time  
 **Priority:** 🔥 IMMEDIATE — Week 1  
+
+## RISK 2: No Backup System
+
+**Severity:**	🔴 HIGH  
+**Likelihood:**	High  
+**Impact:**	Critical 
+
+#### Description:
+TechStart has no automated backup system for its AWS infrastructure, databases, or employee files. Data exists in a single location with no redundancy or recovery capability.
+
+#### Potential Impact:
+
+* Permanent, irrecoverable data loss from accidental deletion, ransomware, or hardware failure
+* Business operations halt indefinitely — no recovery path
+* Customer data loss leads to legal liability and churn
+* Ransomware operators specifically target companies without backups
+* Average cost of downtime for a small business: $8,000–$25,000 per day
+* 60% of small companies that suffer a major data loss close within 6 months
+#### Recommended Solution:
+
+1. Enable AWS Backup for all RDS databases, S3 buckets, and EC2 instances
+2. Configure automated daily backups with 30-day retention
+3. Implement the 3-2-1 rule: 3 copies, 2 media types, 1 offsite
+4. Store an immutable/offline copy to protect against ransomware
+5. Test restoration quarterly — an untested backup is not a backup
+6. Document recovery procedures (RTO/RPO targets)
+**Timeline:** 2–3 weeks  
+**Cost:** $100–$400/month (AWS Backup storage) + setup time  
+**Priority:** 🔥 IMMEDIATE — Weeks 2–3  
