@@ -40,3 +40,36 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 * Risk rating using likelihood × impact matrix
 * Alignment with OWASP Top 10 for web application risks
 * Cost/benefit analysis for each recommendation
+
+## 3. Risk Assessment — Five Major Risks
+
+### RISK 1: Shared Admin Passwords Stored in Plain Text
+
+Severity:	🔴 HIGH
+Likelihood:	High
+Impact:	Critical
+
+#### Description:
+Administrative credentials for AWS, the web application, and internal systems are stored in a shared text file accessible to multiple employees. There is no individual accountability, no password rotation, and no audit trail.
+
+#### Potential Impact:
+
+* Complete system compromise — anyone with the file has full admin access
+* No way to trace who performed an action (no accountability)
+* If the file is leaked (email, USB, cloud sync), attackers gain instant privileged access
+* A single disgruntled employee could delete infrastructure or exfiltrate customer data
+* Potential GDPR/CCPA violations if customer data is breached
+* Estimated breach cost for a startup: $50,000–$150,000+
+  
+#### Recommended Solution:
+
+1. Deploy a password manager (e.g., Bitwarden Teams or 1Password Business)
+2. Create unique, strong credentials for every admin account
+3. Enable Multi-Factor Authentication (MFA) on all admin accounts
+4. Implement role-based access control (RBAC) — no shared accounts
+5. Rotate all existing passwords immediately
+6. Enable audit logging on all privileged accounts
+
+Timeline: 1 week
+Cost: $50–$200/month (password manager) + staff time
+Priority: 🔥 IMMEDIATE — Week 1
