@@ -34,5 +34,21 @@ Enable full-disk encryption on all laptops	|IT Lead	|Week 3	|$0	|100% encrypted 
 Configure backup retention + test restore	|DevOps	|Week 3–4|	$0	|Successful restore test
 Implement RBAC on AWS and app|	DevOps	|Week 4	|$0	| No shared accounts
 
-**Phase 2 Milestone:** ✅ All data in company-controlled channels; network traffic encrypted
+**Phase 2 Milestone:** ✅ All data in company-controlled channels; network traffic encrypted  
 **Phase 2 Cost:** ~$550/month
+
+### PHASE 3: Train & Formalize (Month 2)
+
+**Goal:** Address the human element and establish repeatable processes.
+
+Action |	Owner	| Timeline |	Cost	| Milestone
+--- | --- | --- | --- | ---
+Deploy security awareness training|	HR + IT|	Week 5|	$200/mo	|100% staff trained
+Run first simulated phishing campaign|	IT Lead	|Week 6	|$0|	Baseline click rate measured
+Establish patch management policy	|IT Lead	|Week 6	|$0|	Policy documented & approved
+Enable automatic OS/software updates via MDM	|IT Lead|	Week 7|	$0	|Auto-updates enforced
+Publish acceptable use & security policy	|Management|	Week 8|	$0	|Policy signed by all staff
+Create emergency response runbooks	|IT Lead|	Week 8	|$0|	4 scenarios documented
+
+**Phase 2 Milestone:** ✅ Security culture established; processes documented
+**Phase 2 Cost:** ~$200/month
