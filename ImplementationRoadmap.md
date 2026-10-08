@@ -70,6 +70,13 @@ Consider penetration test	|External|	Month 6|	$5k–$15k|	Report + remediation p
 
                      Week/Month  |  W1  |W2  |W3  |W4  |M2 | M3 | M4  |M5 | M6
                      ---|----|---|---|---|---|---|---|---|---
+
+
+
+
+
+Action |	Owner	| Timeline |	Cost	| Milestone
+--- | --- | --- | --- | ---
 Password rotation      |  ███
 Password manager       |  ███
 MFA on admin           |  ███
