@@ -2,7 +2,7 @@
 
 ### Matrix Overview (Likelihood × Impact)
 
-LIKELIHOOD \IMPACT  |  Low  |  Medium | High
+IMPACT <br>LIKELIHOOD \|  Low  |  Medium | High
 --- | --- | --- | ---
 High | | | RISK 1 🔴 <br> RISK 2 🔴 <br>  RISK 3 🟠
 Med |  |  | <br> <br>  RISK 4 🟠  
@@ -20,7 +20,7 @@ Low | | | <br> <br> RISK 5 🟠
 
 #### Scoring Key:
 
-score| rating | time
+score| risk rating | time
 --- | --- | --- 
 20–25 |Critical | fix immediately
 15–19 |High | fix within 30 days
