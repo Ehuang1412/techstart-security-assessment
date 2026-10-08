@@ -67,3 +67,24 @@ Security posture review	|Leadership|	Quarterly|	$0	|Report to management
 Consider penetration test	|External|	Month 6|	$5k–$15k|	Report + remediation plan
 
 **Phase 2 Milestone:** ✅ Continuous security program operational
+
+                        Week 1  W2  W3  W4  M2  M3  M4  M5  M6
+Password rotation        ███
+Password manager         ███
+MFA on admin             ███
+Revoke ex-employee       ███
+AWS Backup                   ███ ███
+Company email                ███ ███
+VPN deployment               ███ ███
+Disk encryption                  ███
+Backup restore test              ███
+RBAC implementation              ███
+Security training                    ███ ███
+Phishing simulation                  ███
+Patch policy                         ███
+Auto-updates                         ███
+Policies published                   ███
+Emergency runbooks                   ███
+Quarterly reviews                        ███     ███     ███
+Vuln scanning                            ███ ███ ███ ███ ███
+Pen test                                             ███
