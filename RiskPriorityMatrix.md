@@ -33,7 +33,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 LIKELIHOOD \IMPACT  |  Low  |  Medium | High
 --- | --- | --- | ---
-High | | | `RISK 1 🔴  RISK 2 🔴   RISK 3 🟠` 
-| | | |RISK 2 🔴|
+High | | | RISK 1 🔴 <br> RISK 2 🔴 <br>  RISK 3 🟠
+
 Med |  |  | RISK 4 🟠
 Low | | | RISK 5 🟠
