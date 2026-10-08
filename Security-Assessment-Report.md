@@ -4,7 +4,7 @@
 ###### Date: 0ctober 7, 2026
 ###### Classification: Internal Use Only
 ###### Assessment Period: 1 Week
-
+***
 ## 1. Executive Summary
 
 TechStart Inc. is a 50-person startup operating a cloud-based web application on AWS, supported by employee laptops and remote/flexible work arrangements. This assessment reviewed the company's current security posture and identified **five major risks** that threaten the confidentiality, integrity, and availability of company and customer data.
@@ -21,4 +21,22 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 4. Launch security awareness training (Month 2)
 5. Establish patch management policy (Month 2)  
   **Estimated Total First-Year Cost:** $8,000–$15,000    
-  **Estimated Risk Reduction:** ~80% of identified critical risk 
+  **Estimated Risk Reduction:** ~80% of identified critical risk
+***
+## 2. Scope & Methodology
+
+#### In Scope:
+
+* AWS cloud infrastructure
+* Public-facing web application
+* Employee laptop fleet (50 devices)
+* Identity and access management practices
+* Employee communication and data handling
+* Backup and recovery capabilities
+
+#### Methodology:
+
+* Review of current practices against NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover)
+* Risk rating using likelihood × impact matrix
+* Alignment with OWASP Top 10 for web application risks
+* Cost/benefit analysis for each recommendation
