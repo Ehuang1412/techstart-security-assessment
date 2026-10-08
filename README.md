@@ -48,8 +48,8 @@ Cost: $50/month for password manager
 - Customer data breach occurs
 
 ## Deliverables
-1. [Security Assessment Report (2-3 pages)](./Security-Assessment-Report.md)
-2. Risk Priority Matrix (spreadsheet or chart)
+1. [Security Assessment Report (2-3 pages)](./SecurityAssessmentReport.md)
+2. [Risk Priority Matrix (spreadsheet or chart)](./RiskPriorityMatrix.md)
 3. Implementation Roadmap (timeline with milestones)
 4. Employee Security Checklist (1-page quick reference)
 
