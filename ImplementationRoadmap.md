@@ -95,6 +95,7 @@ Pen test               |    |      |    |    | ███|    |   |   |
 ### Budget Summary
 
 Phase	|One-Time Cost	|Monthly Cost	|Annual Cost
+---|---|---|---
 Phase 1	|$0	|$150	|$1,800
 Phase 2	|$0	|$550	|$6,600
 Phase 3	|$0	|$200	|$2,400
