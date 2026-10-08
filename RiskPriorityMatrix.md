@@ -5,8 +5,8 @@
 LIKELIHOOD \IMPACT  |  Low  |  Medium | High
 --- | --- | --- | ---
 High | | | RISK 1 🔴 <br> RISK 2 🔴 <br>  RISK 3 🟠
-Med |  |  | <br>RISK 4 🟠 <br>
-Low | | | <br> RISK 5 🟠 <br>
+Med |  |  | <br> RISK 4 🟠 <br>  
+Low | | | <br> RISK 5 🟠 <br>  
 
 ### Detailed Risk Scoring
 
