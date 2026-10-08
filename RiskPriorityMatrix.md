@@ -44,4 +44,5 @@ No backups|	🔴 High|	Low-Med	|Immediate|	✅ YES
 Personal email	|🟠 Med-High	|Low|	2–4 weeks	|✅ YES
 Public WiFi	|🟠 Med-High	|Low	2–4 weeks|	✅ YES
 No training	|🟠 Medium	|Low	4–8 weeks	|⏳ Soon
-Key Insight: The highest-severity risks are also the cheapest and fastest to fix — making this an unusually high-ROI remediation plan.
+
+**Key Insight:** The highest-severity risks are also the cheapest and fastest to fix — making this an unusually high-ROI remediation plan.
