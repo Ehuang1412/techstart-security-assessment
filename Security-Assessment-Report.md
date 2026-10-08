@@ -191,6 +191,52 @@ Employees have received no security awareness training and apply software update
 5. Establish a patch management policy (critical patches within 72 hours)
 6. Maintain a software inventory and vulnerability scanning cadence
    
-**Timeline:** 4–8 weeks (training rollout); ongoing for patching
-**Cost:** $3–$5/user/month (~$150–$250/month) + MDM costs
+**Timeline:** 4–8 weeks (training rollout); ongoing for patching  
+**Cost:** $3–$5/user/month (~$150–$250/month) + MDM costs  
 **Priority:** ⚡ HIGH — Month 2
+
+## 4. Additional Scenarios — Response Plans
+
+#### Scenario A: Employee Receives a Phishing Email
+1. **Do not click** any links or attachments
+2. **Report** to IT/security immediately (via dedicated email or Slack channel)
+3. IT analyzes headers and indicators of compromise (IOCs)
+4. If clicked: isolate the device, reset credentials, scan for malware
+5. Warn other employees if it's a targeted campaign
+6. Log the incident and update training if needed
+#### Scenario B: Laptop Stolen from Coffee Shop
+1. Employee reports immediately to IT/manager
+2. **Remote wipe** the device via MDM (Intune, Jamf, etc.)
+3. **Change all passwords** for accounts accessed on that device
+4. Revoke active sessions and tokens
+5. If full-disk encryption was enabled, data is likely safe — verify
+6. File police report (may be required for insurance/compliance)
+7. Review logs for suspicious activity
+8. Replace device and re-provision
+#### Scenario C: Ex-Employee Still Has System Access
+1. Immediate: Disable all accounts (email, AWS, app, VPN, SaaS tools)
+2. Revoke API keys, tokens, and SSH keys
+3. Retrieve company devices and credentials
+4. Audit logs for activity since departure
+5. Change any shared credentials the employee had access to
+6. Document offboarding checklist for future use
+7. **Prevention**: Implement automated offboarding within 24 hours of termination
+#### Scenario D: Customer Data Breach Occurs
+1. **Contain:** Isolate affected systems, revoke compromised credentials
+2. **Assess:** Determine what data was accessed and how many customers affected
+3. **Notify:** Legal counsel, management, and (if required) regulators within 72 hours (GDPR)
+4. **Communicate:** Notify affected customers transparently
+5. **Remediate:** Patch the vulnerability, restore from clean backups
+6. **Document:** Full incident report with timeline and root cause
+7. **Review:** Post-mortem to prevent recurrence
+
+## 5. Conclusion & Recommendations Summary
+
+TechStart Inc.'s security posture is currently high-risk due to foundational gaps in identity management, data protection, and employee awareness. The good news: none of these require enterprise budgets or lengthy projects. With approximately $8,000–$15,000 in Year 1 spend and focused effort over 90 days, TechStart can eliminate the majority of its critical risk.
+
+The three principles guiding this assessment:
+
+1. Fix the basics first — hygiene beats sophistication
+2. Prioritize by risk, not by cost — highest impact per dollar wins
+3. Security is a habit, not a project — embed it in daily operations
+**Next Step:** Approve Phase 1 (Week 1) actions and assign an owner.
