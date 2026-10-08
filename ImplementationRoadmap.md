@@ -17,5 +17,6 @@ Deploy password manager (Bitwarden Teams)|	IT Lead	|Day 2–3|	$50/mo	|Team vaul
 Enable MFA on all admin accounts|	IT Lead|	Day 3–4	|$0	|100% admin MFA coverage
 Revoke access for all ex-employees|	HR + IT	|Day 1|	$0	|Zero orphaned accounts
 Enable AWS Backup on critical resources|	DevOps|	Day 4–5|	$100/mo|	Daily backups running
+
 **Phase 1 Milestone:** ✅ Critical access risks closed; backups initiated  
 **Phase 1 Cost:** ~$150/month  
