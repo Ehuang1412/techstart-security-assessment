@@ -45,11 +45,11 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 
 ### RISK 1: Shared Admin Passwords Stored in Plain Text
 
-Severity:	🔴 HIGH
+*Severity:*	🔴 HIGH
 
-Likelihood:	High
+*Likelihood:*	High
 
-Impact:	Critical
+*Impact:*	Critical
 
 #### Description:
 Administrative credentials for AWS, the web application, and internal systems are stored in a shared text file accessible to multiple employees. There is no individual accountability, no password rotation, and no audit trail.
@@ -72,12 +72,6 @@ Administrative credentials for AWS, the web application, and internal systems ar
 5. Rotate all existing passwords immediately
 6. Enable audit logging on all privileged accounts
 
-Timeline: 1 week 
-Cost: $50–$200/month (password manager) + staff time 
-Priority: 🔥 IMMEDIATE — Week 1 
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+*Timeline:* 1 week  
+*Cost:* $50–$200/month (password manager) + staff time  
+*Priority:* 🔥 IMMEDIATE — Week 1  
