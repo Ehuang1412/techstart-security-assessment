@@ -239,4 +239,5 @@ The three principles guiding this assessment:
 1. Fix the basics first — hygiene beats sophistication
 2. Prioritize by risk, not by cost — highest impact per dollar wins
 3. Security is a habit, not a project — embed it in daily operations
+   
 **Next Step:** Approve Phase 1 (Week 1) actions and assign an owner.
