@@ -20,7 +20,7 @@ Low | | | <br> <br> RISK 5 🟠
 
 ##### Scoring Key:
 
-score| risk rating | time
+Score| Severity | Time
 --- | --- | --- 
 20–25 |Critical | fix immediately
 15–19 |High | fix within 30 days
