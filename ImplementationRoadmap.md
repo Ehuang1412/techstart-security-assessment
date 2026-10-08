@@ -13,4 +13,5 @@ Week 1        Weeks 2-4          Month 2           Month 3+
 
 Week 1 |Weeks 2-4|Month 2|Month 3+
 --- |---|---|---
-PHASE 1 STOP BLEEDING|PHASE 2 SECURE CORE |PHASE 3 TRAIN & PROCESS |PHASE 4 SUSTAIN  & AUDIT 
+PHASE 1|PHASE 2 |PHASE 3|PHASE 4
+ STOP BLEEDING|SECURE CORE | TRAIN & PROCESS | SUSTAIN  & AUDIT 
