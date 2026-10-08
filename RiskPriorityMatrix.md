@@ -38,6 +38,7 @@ P3 | Medium	|Training & patching	|Month 2	|$150–$250/mo
 ### Risk Heat Map (Visual)
 
 Risk|	Severity	|Cost to Fix|	Urgency|	Fix First?
+--- | --- | --- | --- | ---
 Shared passwords	|🔴 High|	Low	|Immediate	|✅ YES
 No backups|	🔴 High|	Low-Med	|Immediate|	✅ YES
 Personal email	|🟠 Med-High	|Low|	2–4 weeks	|✅ YES
