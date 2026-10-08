@@ -21,7 +21,9 @@ Colons can be used to align columns.
                  Low         Medium        High
 | LIKELIHOOD \IMPACT    | Tables        | Are           | Cool  |
 || ------------- |:-------------:| -----:|
-|  High    |      |   | RISK 1 🔴  RISK 2 🔴   RISK 3 🟠|
+|  High    |      |   | RISK 1 🔴     RISK 3 🟠|
+| | | |RISK 2 🔴|
+
 |Med |       |      |   RISK 4 🟠|
 |Low|  |      |    RISK 5 🟠 |
 
