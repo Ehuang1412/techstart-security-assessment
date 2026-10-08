@@ -52,3 +52,18 @@ Create emergency response runbooks	|IT Lead|	Week 8	|$0|	4 scenarios documented
 
 **Phase 2 Milestone:** ✅ Security culture established; processes documented
 **Phase 2 Cost:** ~$200/month
+
+### PHASE 4: Sustain & Improve (Month 3+)
+
+**Goal:** Continuous improvement and verification.
+
+Action |	Owner	| Timeline |	Cost	| Milestone
+--- | --- | --- | --- | ---
+Quarterly access reviews|	IT Lead	|Month 3, then quarterly|	$0	|Access audit complete
+Monthly phishing simulations	|IT Lead|	Ongoing	|$0|	Click rate < 5%
+Vulnerability scanning	|DevOps	|Monthly|	$0–$100	|No critical CVEs open > 30 days
+Backup restore test|	DevOps	|Quarterly	|$0	|Documented restore success
+Security posture review	|Leadership|	Quarterly|	$0	|Report to management
+Consider penetration test	|External|	Month 6|	$5k–$15k|	Report + remediation plan
+
+**Phase 2 Milestone:** ✅ Continuous security program operational
