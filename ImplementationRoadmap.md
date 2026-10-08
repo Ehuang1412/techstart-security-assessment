@@ -91,3 +91,14 @@ Emergency runbooks     |    |      |    | ███
 Quarterly reviews      |    |      |    |    | ███|    |███|   |███
 Vuln scanning          |    |      |    |    | ███| ███|███|███|███
 Pen test               |    |      |    |    | ███|    |   |   |
+
+### Budget Summary
+
+Phase	|One-Time Cost	|Monthly Cost	|Annual Cost
+Phase 1	|$0	|$150	|$1,800
+Phase 2	|$0	|$550	|$6,600
+Phase 3	|$0	|$200	|$2,400
+Phase 4	|$5k–$15k (pen test)	|$100	|$6,200–$16,200
+**Total Year **|1	$5k–$15k	|	|$12k–$22k
+
+**ROI Perspective:** Preventing a single breach (avg. $50k–$150k for a startup) pays for this entire program many times over.
