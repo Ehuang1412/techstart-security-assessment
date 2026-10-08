@@ -2,7 +2,7 @@
 
 ### Matrix Overview (Likelihood × Impact)
 
-IMPACT <br>LIKELIHOOD \|  Low  |  Medium | High
+LIKELIHOOD \ IMPACT |  Low  |  Medium | High
 --- | --- | --- | ---
 High | | | RISK 1 🔴 <br> RISK 2 🔴 <br>  RISK 3 🟠
 Med |  |  | <br> <br>  RISK 4 🟠  
