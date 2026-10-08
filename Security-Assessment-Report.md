@@ -46,7 +46,9 @@ Key Finding: TechStart is currently operating at a security maturity level of 1 
 ### RISK 1: Shared Admin Passwords Stored in Plain Text
 
 Severity:	🔴 HIGH
+
 Likelihood:	High
+
 Impact:	Critical
 
 #### Description:
