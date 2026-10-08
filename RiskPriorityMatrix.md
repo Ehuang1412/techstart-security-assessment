@@ -10,7 +10,7 @@ Low | | | <br> RISK 5 🟠 <br>
 
 ### Detailed Risk Scoring
 
- j|	Risk |	Likelihood (1-5) |	Impact (1-5) |	Score	 | Severity |	Priority
+ #|	Risk |	Likelihood (1-5) |	Impact (1-5) |	Score	 | Severity |	Priority
 --- | --- | --- | --- | --- | --- | ---  
 1	| Shared admin passwords |	5	| 5	| 25 |	🔴 Critical	| P1 — Immediate
 2	| No backup system |	4 |	5 |	20 |	🔴  Critical |	P1 — Immediate
