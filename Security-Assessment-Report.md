@@ -164,4 +164,33 @@ Employees work from coffee shops, airports, and hotels using unsecured public Wi
 **Cost:** $5–$10/user/month (~$250–$500/month) + MDM if not already deployed  
 **Priority:** ⚡ HIGH — Weeks 2–4  
 
+### RISK 5: No Security Training & Delayed Software Updates
 
+**Severity:**	🟠 MEDIUM   
+**Likelihood:**	High    
+**Impact:**	Medium-High  
+
+#### Description:
+Employees have received no security awareness training and apply software updates only "when remembered." This creates both a human vulnerability (phishing, social engineering) and a technical one (unpatched systems).
+
+#### Potential Impact:
+
+- Phishing success rates are ~30% without training vs. ~5% with training
+- Unpatched software is the #1 vector for ransomware and malware
+- Known vulnerabilities (CVEs) remain exploitable for months
+- Employees unknowingly introduce malware via downloads and links
+- Compliance failures (most frameworks require annual training)
+- OWASP Top 10 lists "Vulnerable and Outdated Components" as a top risk
+
+#### Recommended Solution:
+
+1. Deploy security awareness training platform (e.g., KnowBe4, Curricula, or Proofpoint)
+2. Mandatory onboarding training + quarterly refreshers
+3. Run simulated phishing campaigns monthly
+4. Enable automatic updates on all OS and software via MDM
+5. Establish a patch management policy (critical patches within 72 hours)
+6. Maintain a software inventory and vulnerability scanning cadence
+   
+**Timeline:** 4–8 weeks (training rollout); ongoing for patching
+**Cost:** $3–$5/user/month (~$150–$250/month) + MDM costs
+**Priority:** ⚡ HIGH — Month 2
