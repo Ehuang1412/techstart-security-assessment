@@ -19,11 +19,11 @@ Colons can be used to align columns.
 
 
                  Low         Medium        High
- LIKELIHOOD \IMPACT    | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-  High    |      |   | RISK 1 🔴  RISK 2 🔴   RISK 3 🟠|
-Med |       |      |   RISK 4 🟠|
-Low|  |      |    RISK 5 🟠 |
+| LIKELIHOOD \IMPACT    | Tables        | Are           | Cool  |
+|| ------------- |:-------------:| -----:|
+|  High    |      |   | RISK 1 🔴  RISK 2 🔴   RISK 3 🟠|
+|Med |       |      |   RISK 4 🟠|
+|Low|  |      |    RISK 5 🟠 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
