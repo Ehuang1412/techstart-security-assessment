@@ -18,7 +18,7 @@ Low | | | <br> <br> RISK 5 🟠
 4 |	Public WiFi without VPN	|4	|4|	16	|🟠 High	|P2 — Short-term
 5	|No training / delayed patches	|5|	3	|15	|🟠 High	|P3 — Medium-term
 
-#### Scoring Key:
+##### Scoring Key:
 
 score| risk rating | time
 --- | --- | --- 
