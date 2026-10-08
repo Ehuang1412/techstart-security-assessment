@@ -22,7 +22,7 @@ Colons can be used to align columns.
 | LIKELIHOOD \IMPACT    | Tables        | Are           | Cool  |
 || ------------- |:-------------:| -----:|
 |  High    |      |   | RISK 1 🔴     RISK 3 🟠|
-
+| | | |RISK 2 🔴|
 
 |Med |       |      |   RISK 4 🟠|
 |Low|  |      |    RISK 5 🟠 |
@@ -34,5 +34,6 @@ raw Markdown line up prettily. You can also use inline Markdown.
 LIKELIHOOD \IMPACT  |  Low  |  Medium | High
 --- | --- | --- | ---
 High | | | `RISK 1 🔴  RISK 2 🔴   RISK 3 🟠` 
+| | | |RISK 2 🔴|
 Med |  |  | RISK 4 🟠
 Low | | | RISK 5 🟠
