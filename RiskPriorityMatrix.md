@@ -16,12 +16,13 @@ LIKELIHOOD├─────────────┼────────�
           └─────────────┴─────────────┴─────────────┘
 Colons can be used to align columns.
 
-| Tables        | Are           | Cool  |
-IMPACT
+
+
                  Low         Medium        High
- High| ------------- |:-------------:| -----:|
-|      |   | RISK 1 🔴  RISK 2 🔴   RISK 3 🟠|
-LIKELIHOOD Med |       |      |   RISK 4 🟠|
+ LIKELIHOOD \IMPACT    | Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+  High    |      |   | RISK 1 🔴  RISK 2 🔴   RISK 3 🟠|
+Med |       |      |   RISK 4 🟠|
 Low|  |      |    RISK 5 🟠 |
 
 There must be at least 3 dashes separating each header cell.
