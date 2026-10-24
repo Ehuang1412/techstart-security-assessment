@@ -26,9 +26,9 @@ and an employee security checklist with emergency response procedures.
 
 Key Technical Skills to Highlight Alongside This Project
 
-Security Frameworks: NIST Cybersecurity Framework, OWASP Top 10
-Risk Management: Risk identification, severity rating, impact analysis, cost/benefit prioritization
-Remediation Planning: Phased roadmapping, timeline estimation, milestone definition
-Security Controls: Password managers (Bitwarden), MFA, RBAC, AWS Backup, VPN, full-disk encryption, patch management
-Deliverables: Security assessment report, risk matrix, implementation roadmap, employee checklist
+- Security Frameworks: NIST Cybersecurity Framework, OWASP Top 10
+- Risk Management: Risk identification, severity rating, impact analysis, cost/benefit prioritization
+- Remediation Planning: Phased roadmapping, timeline estimation, milestone definition
+- Security Controls: Password managers (Bitwarden), MFA, RBAC, AWS Backup, VPN, full-disk encryption, patch management
+- Deliverables: Security assessment report, risk matrix, implementation roadmap, employee checklist
 
